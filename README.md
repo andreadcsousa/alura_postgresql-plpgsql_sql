@@ -70,7 +70,8 @@ SELECT soma_dois_numeros(3, 17);
 
 O que define o valor que será retornado em uma função?
 
-    Após realizar todas as instruções, a última query tem seu resultado obtido pelo PostgreSQL e, desse resultado, a primeira linha é retornada para quem chamou a função.
+    Após realizar todas as instruções, a última query tem seu resultado obtido pelo PostgreSQL
+    e, desse resultado, a primeira linha é retornada para quem chamou a função.
 
 - O último comando de uma função precisa informar o valor, precisa trazer o valor que se quer retornar.
 - O que vai ser utilizado como retorno é a primeira linha desse último comando. Sempre o primeiro item.
